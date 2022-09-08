@@ -284,6 +284,16 @@ header {
     font-weight: 700;
 }
 
+@media (max-width: 1199.98px) {
+    header {
+        padding-bottom: 100%;
+    }
+
+    .header-body-content__container {
+        padding-top: 30px;
+    }
+}
+
 @media (max-width: 991.98px) {
     .content-header-info__title {
         font-weight: 700;
@@ -330,9 +340,5 @@ header {
 
     .header__button {
         flex: 0 0 150px; 
-    }
-
-    header {
-        padding-bottom: 100%;
     }
 }
