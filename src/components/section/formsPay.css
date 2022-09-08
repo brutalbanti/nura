@@ -186,7 +186,7 @@
     .form-content__name {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 5px;
         background: #F2F6FA;
         border-radius: 8px;
         padding: 7px 5px;
@@ -195,7 +195,7 @@
     .form-content__phone {
         display: flex;
         align-items: center;
-        gap: 12px;
+        gap: 5px;
         background: #F2F6FA;
         border-radius: 8px;
         padding: 7px 5px;
