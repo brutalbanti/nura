@@ -189,7 +189,7 @@
         gap: 12px;
         background: #F2F6FA;
         border-radius: 8px;
-        padding: 7px 15px;
+        padding: 7px 5px;
     }
 
     .form-content__phone {
@@ -198,15 +198,15 @@
         gap: 12px;
         background: #F2F6FA;
         border-radius: 8px;
-        padding: 7px 15px;
+        padding: 7px 5px;
     }
 
     .form-content__submit {
-        padding: 15px 85px;
+        padding: 15px 70px;
     }
 
     .form-content-input {
-        padding: 8px;
+        padding: 5px;
     }
 
     .forms-content__title {
@@ -215,5 +215,9 @@
 
     .forms-content__sub-title {
         font-size: 18px;
+    }
+
+    .formsPay-body-content_forms {
+        padding: 70px 18px;
     }
 }
