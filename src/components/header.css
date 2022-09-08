@@ -138,7 +138,7 @@ header {
         background: rgba(0, 0, 0, 0.844);
         padding: 90px 15px 30px 15px;
         transition: top .3s;
-        z-index: 222;
+        z-index: 4;
     }
 
     .header:target .header__menu {
