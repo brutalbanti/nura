@@ -182,4 +182,38 @@
     .items-paying-content__item {
         width: auto;
     }
+
+    .form-content__name {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: #F2F6FA;
+        border-radius: 8px;
+        padding: 7px 15px;
+    }
+
+    .form-content__phone {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: #F2F6FA;
+        border-radius: 8px;
+        padding: 7px 15px;
+    }
+
+    .form-content__submit {
+        padding: 15px 85px;
+    }
+
+    .form-content-input {
+        padding: 8px;
+    }
+
+    .forms-content__title {
+        font-size: 28px;
+    }
+
+    .forms-content__sub-title {
+        font-size: 18px;
+    }
 }
