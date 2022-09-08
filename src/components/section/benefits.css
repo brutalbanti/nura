@@ -1,0 +1,106 @@
+.page__benefits {
+    background: #F9F4F4;
+    padding: 60px 0px;
+    width: 1114px;
+    position: relative;
+    z-index: 3;
+}
+
+.benefits-image__after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.benefits__body {
+    padding-left: 290px;
+}
+
+
+.benefits-body-content__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    padding: 0px 20px;
+}
+
+.benefits-body-content__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333333;
+    padding-bottom: 40px;
+    width: 90%;
+    padding-left: 20px;
+}
+
+.benifets-content__items {
+    display: grid;
+    grid-template-columns: repeat(2, 345px);
+    row-gap: 50px;
+    column-gap: 60px;
+}
+
+.benifets-items-content__item {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+
+.benifets-item-content__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 110%;
+    color: #333333;
+}
+
+@media (max-width: 1199.98px) {
+    .page__benefits {
+        width: 100%;
+    }
+
+    .benefits__body {
+        padding-left: 0;
+    }
+
+    .benefits-body-content__content {
+        align-items: center;
+    }
+
+    .benifets-item-content-last {
+        padding: 0px 150px;
+    }
+
+    .benefits-body-content__title {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .benifets-item-content-last {
+        padding: 0px 40px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .benifets-item-content-last {
+        padding: 0px 0px;
+    }
+
+    .benifets-content__items {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        column-gap: 0px;
+    }
+
+    .benifest-content__image img {
+        width: 100%;
+    }
+    
+    .benefits-body-content__title {
+        font-size: 32px;
+    }
+}

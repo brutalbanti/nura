@@ -1,0 +1,121 @@
+.swiper {
+    width: 100%;
+    height: 400px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    display: none;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background: url('../../img/slider/01.svg') 0 0 / 50% no-repeat;
+    padding: 10px;
+    width: 50px;
+    display: flex;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #842231;
+    justify-content: center;
+    background-position: center;
+}
+
+.swiper-button-prev {
+    transform: rotate(180deg);
+}
+
+.slider__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+
+.slider__body {
+    display: flex;
+    gap: 40px;
+}
+
+.body-slider-content__image {
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.body-slider-content__structure {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 50%;
+}
+
+.structure-slider-content__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 140%;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.structure-slider-content__img img {
+    width: 300px;
+    height: 436px;
+}
+
+@media (max-width: 1199.98px) {
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        display: block;
+    }
+
+    .slider__body {
+        flex-wrap: wrap;
+        padding-bottom: 10%;
+    }
+
+    .body-slider-content__image {
+        flex: 0 1 100%;
+    }
+
+    .body-slider-content__structure {
+        align-items: center;
+        flex: 0 1 100%;
+    }
+
+    .structure-slider-content__img img {
+        width: 100%;
+    }
+
+    .image-slider-content__img {
+        width: 100%;
+    }
+
+    .image-slider-content__img img {
+        width: 100%;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    .slider__title {
+        font-size: 36px;
+    }
+}
